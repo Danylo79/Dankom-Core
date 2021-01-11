@@ -9,7 +9,7 @@ public enum LogLevel {
     FATAL("FATAL", ColorUtil.ANSI_RED),
     IMPORTANT("IMPORTANT", ColorUtil.ANSI_MAGENTA),
     TEST("TEST", ColorUtil.ANSI_GREEN),
-    WARNING("TEST", ColorUtil.ANSI_YELLOW)
+    WARNING("WARNING", ColorUtil.ANSI_YELLOW)
     ;
 
     private final String name;

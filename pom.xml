@@ -6,6 +6,7 @@
 
     <groupId>dev.dankom</groupId>
     <artifactId>Dankom-Core</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
 
     <properties>
