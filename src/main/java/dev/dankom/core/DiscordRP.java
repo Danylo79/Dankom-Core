@@ -14,11 +14,11 @@ public class DiscordRP implements Temporary {
     private final String state;
     private final String details;
 
-    public DiscordRP(String secret, String state, String details) {
+    public DiscordRP(Logger logger, String secret, String state, String details) {
         this.secret = secret;
         this.state = state;
         this.details = details;
-        this.logger = new Logger();
+        this.logger = logger;
     }
 
     @Override

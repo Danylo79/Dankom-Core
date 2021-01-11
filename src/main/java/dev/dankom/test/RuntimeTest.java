@@ -1,5 +1,6 @@
 package dev.dankom.test;
 
+import dev.dankom.core.Core;
 import dev.dankom.logger.Logger;
 
 import java.lang.reflect.Method;
@@ -9,7 +10,7 @@ public class RuntimeTest {
     protected Logger logger;
 
     public RuntimeTest() {
-        this.logger = new Logger();
+        this.logger = Core.getLogger();
     }
 
     public void run() {
