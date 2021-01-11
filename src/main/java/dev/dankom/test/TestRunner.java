@@ -9,6 +9,10 @@ public class TestRunner {
     public Logger logger;
     private String[] testRunners;
 
+    /**
+     * @see RuntimeTest
+     * @param testRunners The directories that contains all the test classes
+     */
     public TestRunner(String... testRunners) {
         this.testRunners = testRunners;
     }

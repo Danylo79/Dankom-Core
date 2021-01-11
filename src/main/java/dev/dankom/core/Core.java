@@ -3,6 +3,9 @@ package dev.dankom.core;
 import dev.dankom.logger.Logger;
 import dev.dankom.test.TestRunner;
 
+/**
+ * @author Dankom
+ */
 public class Core {
 
     private static Logger logger;

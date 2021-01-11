@@ -5,6 +5,10 @@ import dev.dankom.logger.Logger;
 
 import java.lang.reflect.Method;
 
+/**
+ * Runs all the methods marked with the @Test annotation
+ * @see Test
+ */
 public class RuntimeTest {
 
     protected Logger logger;
