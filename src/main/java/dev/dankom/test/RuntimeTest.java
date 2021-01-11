@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 
 public class RuntimeTest {
 
-    private Logger logger;
+    protected Logger logger;
 
     public RuntimeTest() {
         this.logger = new Logger();

@@ -3,6 +3,7 @@ package dev.dankom.file;
 import org.apache.commons.io.FileUtils;
 
 import java.io.*;
+import java.net.URISyntaxException;
 
 public class SimpleFile {
     private String extension;
@@ -25,7 +26,12 @@ public class SimpleFile {
 
     public SimpleFile(String extension, File path, File template, boolean override) {
         this.extension = extension;
-        this.path = path;
+        try {
+            ClassLoader classLoader = SimpleFile.class.getClassLoader();
+            this.path = new File(classLoader.getResource(template.getName()).toURI());
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
         this.template = template;
         this.contents = null;
         this.override = override;
