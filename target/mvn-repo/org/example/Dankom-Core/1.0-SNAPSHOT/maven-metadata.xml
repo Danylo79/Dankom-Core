@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.example</groupId>
+  <artifactId>Dankom-Core</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210111.214606</timestamp>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20210111214606</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0-20210111.214606-4</value>
+        <updated>20210111214606</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20210111.214606-4</value>
+        <updated>20210111214606</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

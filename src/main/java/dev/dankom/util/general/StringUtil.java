@@ -1,6 +1,9 @@
 package dev.dankom.util.general;
 
 public class StringUtil {
+    /**
+     * Removes all ASCII colors from a string
+     */
     public final static String unescape_perl_string(String oldstr) {
 
         /*

@@ -1,7 +1,5 @@
 package dev.dankom.util.minecraft;
 
-import java.awt.*;
-
 public class ChatColor {
     public static String translate(String s) {
         String out = s;
