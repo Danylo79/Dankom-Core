@@ -26,6 +26,7 @@ public class RuntimeTest {
                 }
             } catch (Exception e) {
                 logger.error("Test-Manager", "Failed to run test " + m.getName() + " because of " + e.getClass().getSimpleName() + "!");
+                e.printStackTrace();
             }
         }
     }

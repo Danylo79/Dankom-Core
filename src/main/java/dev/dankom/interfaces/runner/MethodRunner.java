@@ -1,4 +1,4 @@
-package dev.dankom.interfaces;
+package dev.dankom.interfaces.runner;
 
 public interface MethodRunner {
     void run();
