@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class DataStructureTranslator {
+public class DataStructureAdapter {
     public static <T> List<T> listFromLinkedList(LinkedList<T> ll) {
         List<T> out = new ArrayList<>();
         for (T o : ll) {

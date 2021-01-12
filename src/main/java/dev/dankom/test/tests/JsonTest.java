@@ -3,7 +3,7 @@ package dev.dankom.test.tests;
 import dev.dankom.core.Core;
 import dev.dankom.test.RuntimeTest;
 import dev.dankom.test.Test;
-import dev.dankom.util.general.DataStructureTranslator;
+import dev.dankom.util.general.DataStructureAdapter;
 import dev.dankom.util.json.JsonExpose;
 import dev.dankom.util.json.JsonSerializable;
 
@@ -22,6 +22,6 @@ public class JsonTest extends RuntimeTest {
         @JsonExpose(customName = "test1")
         public String test = "test";
         @JsonExpose
-        public List<String> strings = DataStructureTranslator.arrayToList("foo", "bar");
+        public List<String> strings = DataStructureAdapter.arrayToList("foo", "bar");
     }
 }

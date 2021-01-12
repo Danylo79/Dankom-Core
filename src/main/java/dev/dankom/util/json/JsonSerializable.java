@@ -1,8 +1,7 @@
 package dev.dankom.util.json;
 
-import dev.dankom.core.Core;
 import dev.dankom.util.general.StringUtil;
-import dev.dankom.util.general.Token;
+import dev.dankom.util.type.Token;
 import org.json.simple.JSONAware;
 
 import java.lang.reflect.Field;
