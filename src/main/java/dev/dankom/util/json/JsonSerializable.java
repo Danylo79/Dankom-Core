@@ -1,6 +1,8 @@
 package dev.dankom.util.json;
 
+import dev.dankom.core.Core;
 import dev.dankom.util.general.StringUtil;
+import dev.dankom.util.general.Token;
 import org.json.simple.JSONAware;
 
 import java.lang.reflect.Field;
@@ -17,10 +19,35 @@ public interface JsonSerializable extends JSONAware {
                 JsonExpose a = f.getAnnotation(JsonExpose.class);
                 String name = (a.customName().equalsIgnoreCase("") ? f.getName() : a.customName());
                 Object value = f.get(this);
-                if (i == (fields().size() - 1)) {
-                    out += StringUtil.wrap(name, "\"") + ": " + StringUtil.wrap(value, "\"");
+                if (!(f.getType().equals(List.class))) {
+                    out += StringUtil.wrap(name, Token.JSON_QUOTE.token()) + ": " + StringUtil.wrap(value, Token.JSON_QUOTE.token());
                 } else {
-                    out += StringUtil.wrap(name, "\"") + ": " + StringUtil.wrap(value, "\"") + ", ";
+                    out += StringUtil.wrap(name, Token.JSON_QUOTE.token()) + ": [";
+                    try {
+                        String stringArray = "";
+                        List<String> objects = new ArrayList<>();
+                        List<Object> l = (List<Object>) f.get(this);
+                        for (Object o : l) {
+                            if (o instanceof JSONAware) {
+                                objects.add(((JSONAware) o).toJSONString());
+                            } else {
+                                objects.add(o.toString());
+                            }
+                        }
+                        for (int j = 0; j < objects.size(); j++) {
+                            stringArray += StringUtil.wrap(objects.get(j), Token.JSON_QUOTE.token());
+                            if (j != (objects.size() - 1)) {
+                                stringArray += ", ";
+                            }
+                        }
+                        out += stringArray;
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    out += "]";
+                }
+                if (i != (fields().size() - 1)) {
+                    out += ", ";
                 }
             }
         } catch (Exception e) {

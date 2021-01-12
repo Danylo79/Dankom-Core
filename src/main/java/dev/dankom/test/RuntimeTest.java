@@ -50,12 +50,4 @@ public class RuntimeTest {
             Core.getLogger().test("RuntimeTest (" + getClass().getSimpleName() + ")", "Test has passed!");
         }
     }
-
-    public void assertEquals(Method call, Object i1, Object i2) {
-        assertResult(call, i1 == i2);
-    }
-
-    public void assertEquals(Object i1, Object i2) {
-        assertResult(i1 == i2);
-    }
 }
