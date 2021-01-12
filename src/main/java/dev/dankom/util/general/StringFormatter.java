@@ -3,7 +3,7 @@ package dev.dankom.util.general;
 import dev.dankom.util.Util;
 
 public class StringFormatter implements Util {
-    public static String format(String... strings) {
+    public static String join(String... strings) {
         String out = "";
         for (String s : strings) {
             out += s;

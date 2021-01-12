@@ -1,4 +1,4 @@
-package dev.dankom.util.args;
+package dev.dankom.util.general.args;
 
 import dev.dankom.util.Util;
 

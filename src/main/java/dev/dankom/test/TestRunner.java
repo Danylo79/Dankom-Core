@@ -17,6 +17,9 @@ public class TestRunner {
         this.testRunners = testRunners;
     }
 
+    /**
+     * Goes through all the directories that were presented in the constructor finds test classes and runs them
+     */
     public void start() {
         this.logger = Core.getLogger();
         logger.test("TestRunner", "Starting TestRunner");
