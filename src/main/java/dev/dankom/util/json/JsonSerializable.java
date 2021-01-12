@@ -14,10 +14,13 @@ public interface JsonSerializable extends JSONAware {
         try {
             for (int i = 0; i < fields().size(); i++) {
                 Field f = fields().get(i);
+                JsonExpose a = f.getAnnotation(JsonExpose.class);
+                String name = (a.customName().equalsIgnoreCase("") ? f.getName() : a.customName());
+                Object value = f.get(this);
                 if (i == (fields().size() - 1)) {
-                    out += StringUtil.wrap(f.getName(), "\"") + ": " + StringUtil.wrap("" + f.get(this), "\"");
+                    out += StringUtil.wrap(name, "\"") + ": " + StringUtil.wrap(value, "\"");
                 } else {
-                    out += StringUtil.wrap(f.getName(), "\"") + ": " + StringUtil.wrap("" + f.get(this), "\"") + ", ";
+                    out += StringUtil.wrap(name, "\"") + ": " + StringUtil.wrap(value, "\"") + ", ";
                 }
             }
         } catch (Exception e) {

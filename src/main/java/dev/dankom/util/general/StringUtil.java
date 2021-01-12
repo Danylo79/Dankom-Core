@@ -291,11 +291,11 @@ public class StringUtil implements Util {
         throw new IllegalArgumentException(foa);
     }
 
-    public static String wrap(String toWrap, String wrap) {
+    public static String wrap(Object toWrap, String wrap) {
         return wrap + toWrap + wrap;
     }
 
-    public static String wrap(String toWrap, String wrap, String wrap2) {
+    public static String wrap(Object toWrap, String wrap, String wrap2) {
         return wrap + toWrap + wrap2;
     }
 }
