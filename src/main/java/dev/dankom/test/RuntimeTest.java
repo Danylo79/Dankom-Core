@@ -30,4 +30,32 @@ public class RuntimeTest {
             }
         }
     }
+
+    public void assertResult(Method o, boolean b) {
+        if (b) {
+            Core.getLogger().fatal("RuntimeTest (" + getClass().getSimpleName() + ")", "Test " + o.getName() + " failed!");
+            Runtime.getRuntime().exit(-1);
+            return;
+        } else {
+            Core.getLogger().test("RuntimeTest (" + getClass().getSimpleName() + ")", "Test " + o.getName() + " has passed!");
+        }
+    }
+
+    public void assertResult(boolean b) {
+        if (b) {
+            Core.getLogger().fatal("RuntimeTest (" + getClass().getSimpleName() + ")", "Test failed!");
+            Runtime.getRuntime().exit(-1);
+            return;
+        } else {
+            Core.getLogger().test("RuntimeTest (" + getClass().getSimpleName() + ")", "Test has passed!");
+        }
+    }
+
+    public void assertEquals(Method call, Object i1, Object i2) {
+        assertResult(call, i1 == i2);
+    }
+
+    public void assertEquals(Object i1, Object i2) {
+        assertResult(i1 == i2);
+    }
 }
