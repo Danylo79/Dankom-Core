@@ -1,5 +1,7 @@
 package dev.dankom.util.reflection;
 
+import sun.plugin.dom.core.Attr;
+
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;

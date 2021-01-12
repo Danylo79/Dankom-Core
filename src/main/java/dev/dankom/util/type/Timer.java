@@ -1,4 +1,4 @@
-package dev.dankom.util.general;
+package dev.dankom.util.type;
 
 public class Timer {
 

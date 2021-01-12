@@ -13,7 +13,7 @@ public class NameHelper implements Util {
         names.clear();
         names.add("Bob");
         names.add("Joe");
-        names.add("Fredirick");
+        names.add("Fredrick");
         names.add("Jose");
         names.add("Karen");
         names.add("Ken");
