@@ -1,9 +1,11 @@
 package dev.dankom.util.args;
 
+import dev.dankom.util.Util;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArgParser {
+public class ArgParser implements Util {
 
     public ArgList defaultArgs = new ArgList();
 

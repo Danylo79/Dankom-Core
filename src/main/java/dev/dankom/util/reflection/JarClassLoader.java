@@ -1,5 +1,7 @@
 package dev.dankom.util.reflection;
 
+import java.io.File;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.JarURLConnection;
@@ -23,6 +25,15 @@ public class JarClassLoader extends URLClassLoader {
     public JarClassLoader(URL url) {
         super(new URL[] { url });
         this.url = url;
+    }
+
+    /**
+     * Creates a new JarClassLoader for the specified file.
+     *
+     * @param file the jar file
+     */
+    public JarClassLoader(File file) throws MalformedURLException {
+        this(file.toURL());
     }
 
     /**

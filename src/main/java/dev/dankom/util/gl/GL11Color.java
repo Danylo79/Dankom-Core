@@ -1,6 +1,8 @@
 package dev.dankom.util.gl;
 
-public class GL11Color {
+import dev.dankom.util.Util;
+
+public class GL11Color implements Util {
     private double r;
     private double g;
     private double b;

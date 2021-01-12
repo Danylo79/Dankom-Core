@@ -1,6 +1,8 @@
 package dev.dankom.util.minecraft;
 
-public class ChatColor {
+import dev.dankom.util.Util;
+
+public class ChatColor implements Util {
     public static String translate(String s) {
         String out = s;
         for (ColorCode cc : ColorCode.values()) {
