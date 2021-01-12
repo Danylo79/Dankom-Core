@@ -1,9 +1,11 @@
 package dev.dankom.util.general;
 
+import dev.dankom.util.Util;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class NameHelper {
+public class NameHelper implements Util {
 
     private static List<String> names = new ArrayList<>();
 

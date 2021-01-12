@@ -1,8 +1,10 @@
 package dev.dankom.util.general;
 
+import dev.dankom.util.Util;
+
 import java.awt.*;
 
-public class ColorUtil {
+public class ColorUtil implements Util {
 
     private static ColorUtil instance;
     // ANSI escape code

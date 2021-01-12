@@ -1,8 +1,10 @@
 package dev.dankom.util.general;
 
+import dev.dankom.util.Util;
+
 import java.util.Random;
 
-public class MathUtil {
+public class MathUtil implements Util {
     public static double randDouble(int min, int max) {
         Random r = new Random();
         return (min - 1) + ((max - 1) - (min - 1)) * r.nextDouble();

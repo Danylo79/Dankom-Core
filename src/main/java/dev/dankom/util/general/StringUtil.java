@@ -1,6 +1,8 @@
 package dev.dankom.util.general;
 
-public class StringUtil {
+import dev.dankom.util.Util;
+
+public class StringUtil implements Util {
     /**
      * Removes all ASCII colors from a string
      */
