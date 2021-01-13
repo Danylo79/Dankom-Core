@@ -2,7 +2,6 @@ package dev.dankom.util.type;
 
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Sets;
-import com.sun.istack.internal.NotNull;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -162,7 +161,7 @@ public class TypeEnum implements Iterable<TypeEnum.TypeEnumEntry> {
         private boolean deprecated;
 
         @Override
-        public int compareTo(@NotNull TypeEnumEntry o) {
+        public int compareTo(TypeEnumEntry o) {
             return ComparisonChain.start().
                     compare(getName(), o.getName()).
                     compare(isDeprecated(), o.isDeprecated()).

@@ -17,4 +17,9 @@
       <module name="Repo-Test" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Dankom-Core" options="-XDignore.symbol.file" />
+    </option>
+  </component>
 </project>
