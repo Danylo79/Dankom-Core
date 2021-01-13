@@ -23,5 +23,3 @@ jobs:
     - name: Build with Maven
       run: |
         mvn install
-        mvn -B package --file pom.xml
-        mvn deploy
