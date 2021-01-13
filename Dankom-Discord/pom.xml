@@ -30,14 +30,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.Vatuu</groupId>
-            <artifactId>discord-rpc</artifactId>
-            <version>1.6.2</version>
-        </dependency>
-        <dependency>
             <groupId>dev.dankom</groupId>
             <artifactId>Dankom-Core</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.Vatuu</groupId>
+            <artifactId>discord-rpc</artifactId>
+            <version>1.6.2</version>
         </dependency>
         <dependency>
             <groupId>net.dv8tion</groupId>
