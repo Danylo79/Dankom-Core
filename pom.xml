@@ -4,10 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.dankom</groupId>
+    <groupId>dev.dankom.core</groupId>
     <artifactId>Dankom-Core</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>Discord</module>
+        <module>Discord-Core</module>
+        <module>Dankom-Discord</module>
+        <module>Dankom-Spigot</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -37,10 +43,6 @@
             <name>commons-io</name>
             <url>https://mvnrepository.com/artifact/commons-io/commons-io/2.8.0</url>
         </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -58,11 +60,6 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.Vatuu</groupId>
-            <artifactId>discord-rpc</artifactId>
-            <version>1.6.2</version>
         </dependency>
     </dependencies>
 

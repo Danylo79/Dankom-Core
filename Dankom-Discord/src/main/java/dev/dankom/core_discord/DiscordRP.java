@@ -1,4 +1,4 @@
-package dev.dankom.core;
+package dev.dankom.core_discord;
 
 import dev.dankom.interfaces.Temporary;
 import dev.dankom.logger.Logger;
