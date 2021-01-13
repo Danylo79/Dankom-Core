@@ -2,6 +2,7 @@ package dev.dankom.util.general;
 
 import dev.dankom.util.Util;
 
+import java.text.DecimalFormat;
 import java.util.Random;
 
 public class MathUtil implements Util {
@@ -23,6 +24,25 @@ public class MathUtil implements Util {
         if (value > max) {
             out = (out - (max - out));
         }
+        return out;
+    }
+
+    public static double convertDoubleToThousand(double num) {
+        return num * 1000;
+    }
+
+    public static double convertDoubleToMillion(double num) {
+        return num * 1000000;
+    }
+
+    public static double convertDoubleToBillion(double num) {
+        return num * 1000000000;
+    }
+
+    public static String formatLargeDouble(double Double) {
+        DecimalFormat decimalFormat = new DecimalFormat("###,###,###,###.###");
+        String out = decimalFormat.format(Double);
+
         return out;
     }
 }

@@ -7,11 +7,6 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="commons-io" />
-      <option name="name" value="commons-io" />
-      <option name="url" value="https://mvnrepository.com/artifact/commons-io/commons-io/2.8.0" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="discord-rpc" />
       <option name="name" value="discord-rpc" />
       <option name="url" value="https://jitpack.io/#Vatuu/discord-rpc" />
@@ -27,6 +22,26 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="placeholderapi" />
+      <option name="name" value="placeholderapi" />
+      <option name="url" value="https://repo.extendedclip.com/content/repositories/placeholderapi/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="reflection" />
+      <option name="name" value="reflection" />
+      <option name="url" value="https://mvnrepository.com/artifact/org.reflections/reflections/0.9.12" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="commons-io" />
+      <option name="name" value="commons-io" />
+      <option name="url" value="https://mvnrepository.com/artifact/commons-io/commons-io/2.8.0" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spigotmc-repo" />
+      <option name="name" value="spigotmc-repo" />
+      <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
@@ -37,14 +52,19 @@
       <option name="url" value="https://jcenter.bintray.com/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="reflection" />
-      <option name="name" value="reflection" />
-      <option name="url" value="https://mvnrepository.com/artifact/org.reflections/reflections/0.9.12" />
+      <option name="id" value="upstream" />
+      <option name="name" value="upstream" />
+      <option name="url" value="http://ci" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="Hypixel" />
       <option name="name" value="Hypixel" />
       <option name="url" value="https://repo.hypixel.net/repository/Hypixel/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dmulloy2-repo" />
+      <option name="name" value="dmulloy2-repo" />
+      <option name="url" value="https://repo.dmulloy2.net/nexus/repository/public/" />
     </remote-repository>
   </component>
 </project>
