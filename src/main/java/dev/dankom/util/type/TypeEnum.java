@@ -3,7 +3,6 @@ package dev.dankom.util.type;
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Sets;
 import com.sun.istack.internal.NotNull;
-import dev.dankom.util.Util;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -12,7 +11,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class TypeEnum implements Iterable<TypeEnum.TypeEnumEntry>, Util {
+public class TypeEnum implements Iterable<TypeEnum.TypeEnumEntry> {
     // Used to convert between IDs and names
     protected Set<TypeEnumEntry> members = Sets.newHashSet();
 

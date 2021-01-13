@@ -1,8 +1,6 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
-public class StringFormatter implements Util {
+public class StringFormatter {
     public static String join(String... strings) {
         String out = "";
         for (String s : strings) {

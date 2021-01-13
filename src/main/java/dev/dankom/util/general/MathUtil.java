@@ -1,11 +1,9 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
 import java.text.DecimalFormat;
 import java.util.Random;
 
-public class MathUtil implements Util {
+public class MathUtil {
     public static double randDouble(int min, int max) {
         Random r = new Random();
         return (min - 1) + ((max - 1) - (min - 1)) * r.nextDouble();
@@ -44,5 +42,17 @@ public class MathUtil implements Util {
         String out = decimalFormat.format(Double);
 
         return out;
+    }
+
+    public static int getPercent(int num1, float perc) {
+        return Math.round((perc * num1) / 100f);
+    }
+
+    public static Double percOf(Integer number1, Integer prec) {
+        return number1 * prec / 100.0;
+    }
+
+    public static Double percOf(Double number1, Integer prec) {
+        return number1 * prec / 100.0;
     }
 }

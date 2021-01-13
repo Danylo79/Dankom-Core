@@ -1,8 +1,6 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
-public class Validation implements Util {
+public class Validation {
     public static void notNull(String msg, Object object) {
         throwException(msg, object != null);
     }

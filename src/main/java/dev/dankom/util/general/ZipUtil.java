@@ -1,7 +1,5 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -9,7 +7,7 @@ import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-public class ZipUtil implements Util {
+public class ZipUtil {
 
     private static int bufferSize = 2048;
 

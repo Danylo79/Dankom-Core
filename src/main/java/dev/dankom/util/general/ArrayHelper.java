@@ -1,13 +1,11 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
 import java.util.Iterator;
 
 /**
  * Created by Hexeption on 18/12/2016.
  */
-public class ArrayHelper<T> implements Iterable<T>, Util {
+public class ArrayHelper<T> implements Iterable<T> {
 
     private T[] elements;
 

@@ -1,14 +1,12 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class HttpUtil implements Util {
+public class HttpUtil {
 
     private final String readUrl;
 

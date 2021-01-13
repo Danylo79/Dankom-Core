@@ -1,11 +1,9 @@
 package dev.dankom.util.general;
 
-import dev.dankom.util.Util;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListUtil implements Util {
+public class ListUtil {
     public static <T> List<T> toList(T... objects) {
         List<T> out = new ArrayList<>();
         for (T o : objects) {

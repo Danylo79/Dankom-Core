@@ -1,12 +1,10 @@
 package dev.dankom.util.reflection;
 
-import dev.dankom.util.Util;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
-public class ReflectionData implements Util {
+public class ReflectionData {
 
     private final int modifiers;
 
