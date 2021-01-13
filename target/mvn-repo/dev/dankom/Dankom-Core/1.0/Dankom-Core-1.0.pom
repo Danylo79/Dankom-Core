@@ -8,10 +8,6 @@
     <artifactId>Dankom-Core</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <modules>
-<!--        <module>Dankom-Discord</module>-->
-<!--        <module>Dankom-Spigot</module>-->
-    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
