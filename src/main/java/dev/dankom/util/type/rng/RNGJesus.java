@@ -21,7 +21,7 @@ public class RNGJesus {
         return pool.get(MathUtil.randInt(1, pool.size()));
     }
 
-    public class RNGNode {
+    public static class RNGNode {
         private final String name;
         private final int chance;
 
