@@ -44,7 +44,7 @@ public class ArgParser {
         }
     }
 
-    public class Arg<VALUE> {
+    public static class Arg<VALUE> {
         private final String name;
         private VALUE value;
         private final VALUE defaultValue;
