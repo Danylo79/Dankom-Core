@@ -1,4 +1,4 @@
-package dev.dankom.file;
+package dev.dankom.file.type.file;
 
 import org.jetbrains.annotations.NotNull;
 

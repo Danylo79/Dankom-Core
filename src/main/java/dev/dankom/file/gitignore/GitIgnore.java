@@ -1,6 +1,6 @@
 package dev.dankom.file.gitignore;
 
-import dev.dankom.file.SimpleFile;
+import dev.dankom.file.type.file.SimpleFile;
 
 import java.io.File;
 

@@ -67,6 +67,12 @@ public class YmlObject extends HashMap<String, Object> {
     }
     //
 
+    public void addDataKey(String key, Object dval) {
+        if (get(key) == null) {
+            put(key, dval);
+        }
+    }
+
     public JSONObject toJSON() {
         return new JSONObject(this);
     }
