@@ -1,6 +1,6 @@
 package dev.dankom.triggered.manager;
 
-import dev.dankom.triggered.annotation.TriggerTarget;
+import dev.dankom.annotation.TriggerTarget;
 import dev.dankom.triggered.trigger.Trigger;
 import dev.dankom.triggered.trigger.Triggers;
 import dev.dankom.triggered.type.TriggerType;

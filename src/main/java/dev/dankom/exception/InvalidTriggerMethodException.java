@@ -1,4 +1,4 @@
-package dev.dankom.triggered.exception;
+package dev.dankom.exception;
 
 import java.lang.reflect.Method;
 

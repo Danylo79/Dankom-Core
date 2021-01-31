@@ -1,4 +1,4 @@
-package dev.dankom.triggered.annotation;
+package dev.dankom.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
