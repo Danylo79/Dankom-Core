@@ -1,3 +1,5 @@
+[download]: https://jitpack.io/#Danylo79/Dankom-Core
+
 # Dankom-Core
 Dankom Core is a library of useful util and helper classes.
 
