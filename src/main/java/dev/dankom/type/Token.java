@@ -1,4 +1,4 @@
-package dev.dankom.util.type;
+package dev.dankom.type;
 
 public class Token implements java.io.Serializable, Comparable<String>, CharSequence {
 

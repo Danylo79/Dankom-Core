@@ -1,4 +1,4 @@
-package dev.dankom.util.type;
+package dev.dankom.type;
 
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Sets;

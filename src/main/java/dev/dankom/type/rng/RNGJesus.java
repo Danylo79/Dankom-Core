@@ -1,4 +1,4 @@
-package dev.dankom.util.type.rng;
+package dev.dankom.type.rng;
 
 import dev.dankom.util.general.MathUtil;
 

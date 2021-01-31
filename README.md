@@ -3,7 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Dankom-Core (Java)
-
+Dankom Core is a library of useful util and helper classes.
+#Maven
 Repository
 ```xml
 <repositories>
@@ -21,4 +22,3 @@ Dependency
     <version>{VERSION}</version>
 </dependency>
 ```
-

@@ -1,4 +1,4 @@
-package dev.dankom.util.type;
+package dev.dankom.type;
 
 import dev.dankom.interfaces.runner.MethodRunner;
 

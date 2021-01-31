@@ -1,4 +1,4 @@
-package dev.dankom.util.json;
+package dev.dankom.annotation.json;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

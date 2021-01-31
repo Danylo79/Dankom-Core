@@ -10,7 +10,6 @@ public class ArrayHelper<T> implements Iterable<T> {
     private T[] elements;
 
     public ArrayHelper(final T[] array) {
-
         this.elements = array;
     }
 

@@ -4,8 +4,8 @@ import dev.dankom.core.Core;
 import dev.dankom.test.RuntimeTest;
 import dev.dankom.test.Test;
 import dev.dankom.util.general.DataStructureAdapter;
-import dev.dankom.util.json.JsonExpose;
-import dev.dankom.util.json.JsonSerializable;
+import dev.dankom.annotation.json.JsonExpose;
+import dev.dankom.annotation.json.JsonSerializable;
 
 import java.util.List;
 
