@@ -1,7 +1,21 @@
 # Dankom-Core
 Dankom Core is a library of useful util and helper classes.
-# To Use
-Create a new instance of the Core class\
-`Core core = new Core()`\
-or you can initialize with a custom test runner\
-`Core core = new Core(new TestRunner("dev.dankom.test.tests"))`
+#Maven
+Repository
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+Dependency
+```xml
+<dependency>
+    <groupId>com.github.Danylo79</groupId>
+    <artifactId>Dankom-Core</artifactId>
+    <version>{VERSION}</version>
+</dependency>
+```
+
