@@ -1,4 +1,4 @@
-package dev.dankom.jar.runner;
+package dev.dankom.file.jar.runner;
 
 import dev.dankom.core.Core;
 import dev.dankom.util.reflection.JarClassLoader;
