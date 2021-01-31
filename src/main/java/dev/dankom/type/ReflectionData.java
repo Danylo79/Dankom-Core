@@ -1,4 +1,6 @@
-package dev.dankom.util.reflection;
+package dev.dankom.type;
+
+import lombok.AccessLevel;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -66,5 +68,15 @@ public class ReflectionData {
 
     public boolean isStrict() {
         return Modifier.isStrict(modifiers);
+    }
+
+    public AccessLevel getAccessLevel() {
+        if (isPublic()) {
+            return AccessLevel.PUBLIC;
+        } else if (isPrivate()) {
+            return AccessLevel.PRIVATE;
+        } else {
+            return AccessLevel.PROTECTED;
+        }
     }
 }

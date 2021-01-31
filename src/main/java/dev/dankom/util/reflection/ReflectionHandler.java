@@ -1,5 +1,7 @@
 package dev.dankom.util.reflection;
 
+import dev.dankom.type.ReflectionData;
+
 public class ReflectionHandler {
 
     private final Class<?> clazz;

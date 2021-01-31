@@ -10,12 +10,31 @@
     <version>1.5</version>
     <name>Dankom-Core</name>
     <url>https://github.com/Danylo79/Dankom-Core</url>
+    <description>Dankom Core is a library of useful util and helper classes.</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <github.global.server>github</github.global.server>
     </properties>
+
+    <developers>
+        <developer>
+            <name>Dankom</name>
+            <email>dan.komisarenko@gmail.com</email>
+            <url>https://danylo79.github.io/dev.dankom.github/</url>
+            <roles>
+                <role>Lead Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
 
     <build>
         <plugins>

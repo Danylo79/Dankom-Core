@@ -1,5 +1,6 @@
 package dev.dankom.util.reflection;
 
+import dev.dankom.type.ReflectionData;
 import org.reflections.Reflections;
 
 import java.lang.reflect.Field;

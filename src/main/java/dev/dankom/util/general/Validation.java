@@ -2,22 +2,14 @@ package dev.dankom.util.general;
 
 public class Validation {
     public static void notNull(String msg, Object object) {
-        throwException(msg, object != null);
+        if (object == null) {
+            ExceptionUtil.throwException(msg);
+        }
     }
 
-    public static void throwCompactException(String msg) {
-        throwException(msg, false);
-    }
-
-    private static void throwException(String msg, boolean validation) {
-        if (!validation) {
-            try {
-                throw new Exception(msg);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        } else {
-            return;
+    public static void assertObject(String msg, Object o, Object o1) {
+        if (o != o1) {
+            ExceptionUtil.throwException(msg);
         }
     }
 }
