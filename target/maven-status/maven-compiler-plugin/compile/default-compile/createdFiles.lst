@@ -1,11 +1,14 @@
 dev\dankom\type\rng\RNGJesus$RNGNode.class
 dev\dankom\type\AttributeMap.class
 dev\dankom\exception\InvalidTriggerMethodException.class
+dev\dankom\util\general\ExceptionUtil.class
 dev\dankom\type\reflection\ClassSource$3.class
 dev\dankom\type\reflection\ClassSource.class
+dev\dankom\type\ReflectionData.class
 dev\dankom\type\rng\RNGJesus.class
 dev\dankom\util\general\TimeFormatter$TimeFormatType.class
 dev\dankom\type\reflection\ClassSource$4.class
+dev\dankom\util\maven\PropertiesReader.class
 dev\dankom\type\reflection\CachedPackage.class
 dev\dankom\annotation\TriggerTarget.class
 dev\dankom\annotation\json\JsonExpose.class

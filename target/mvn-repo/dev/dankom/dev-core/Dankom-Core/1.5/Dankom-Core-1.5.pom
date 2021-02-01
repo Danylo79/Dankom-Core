@@ -7,7 +7,7 @@
     <groupId>dev.dankom.dev-core</groupId>
     <artifactId>Dankom-Core</artifactId>
     <packaging>jar</packaging>
-    <version>1.6</version>
+    <version>1.5</version>
     <name>Dankom-Core</name>
     <url>https://github.com/Danylo79/Dankom-Core</url>
     <description>Dankom Core is a library of useful util and helper classes.</description>
@@ -16,8 +16,6 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <github.global.server>github</github.global.server>
-        <dev.dankom.github.username>Danylo79</dev.dankom.github.username>
-        <dev.dankom.github.repository>Dankom-Core</dev.dankom.github.repository>
     </properties>
 
     <developers>
@@ -46,22 +44,6 @@
                 <configuration>
                     <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>properties-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <executions>
-                    <execution>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>write-project-properties</goal>
-                        </goals>
-                        <configuration>
-                            <outputFile>${project.build.outputDirectory}/maven-properties.properties</outputFile>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
@@ -121,7 +103,7 @@
         <repository>
             <id>internal.repo</id>
             <name>Temporary Staging Repository</name>
-            <url>${project.build.directory}/mvn-repo</url>
+            <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
     </distributionManagement>
 </project>

@@ -11,6 +11,7 @@ C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\St
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\type\callback\MeteredCallback.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\file\txt\TxtFile.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\interfaces\runner\ArgsMethodRunner.java
+C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\ExceptionUtil.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\StringUtil.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\minecraft\ChatColor.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\file\json\JsonObjectReader.java
@@ -23,10 +24,10 @@ C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\logger\LogLevel
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\type\Registry.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\type\reflection\CachedPackage.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\reflection\ReflectionHandler.java
-C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\reflection\ReflectionData.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\ColorUtil.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\triggered\logger\Logger.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\args\ArgParser.java
+C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\maven\PropertiesReader.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\core\Core.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\file\yml\YmlObjectBuilder.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\BufferUtil.java
@@ -44,6 +45,7 @@ C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\test\TestRunner
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\ListUtil.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\util\general\FileUtil.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\type\Timer.java
+C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\type\ReflectionData.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\file\jar\runner\Runner.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\type\callback\RuntimeCallback.java
 C:\Users\danko\IdeaProjects\Dankom-Core\src\main\java\dev\dankom\file\json\JsonObjectBuilder.java

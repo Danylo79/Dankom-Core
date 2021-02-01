@@ -1,7 +1,7 @@
 {
   "foo": "bar",
   "strings": [
-    "foo"
+    "foo",
     "foo",
     "bar"
   ]

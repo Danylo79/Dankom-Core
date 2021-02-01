@@ -2,6 +2,7 @@ package dev.dankom.core;
 
 import dev.dankom.logger.Logger;
 import dev.dankom.test.TestRunner;
+import dev.dankom.util.maven.PropertiesReader;
 
 /**
  * @author Dankom
