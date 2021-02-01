@@ -10,10 +10,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Dankom-Commands/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Dankom-Core Commands/pom.xml" />
         <option value="$PROJECT_DIR$/Dankom-Core-Test/pom.xml" />
         <option value="$PROJECT_DIR$/Discord-Core/pom.xml" />
         <option value="$PROJECT_DIR$/Discord/pom.xml" />

@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dankom-Core" />
+        <module name="Dankom-Commands" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Dankom-Core Commands" target="8" />
       <module name="Dankom-Core-Test" target="8" />
+      <module name="Dankom-CoreCommands" target="8" />
       <module name="Dankom-Discord" target="8" />
       <module name="Dankom-Spigot" target="8" />
       <module name="Discord" target="8" />
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Dankom-Core" options="" />
       <module name="Dankom-Core-Test" options="-XDignore.symbol.file" />
+      <module name="Dankom-CoreCommands" options="-XDignore.symbol.file" />
     </option>
   </component>
 </project>
