@@ -26,4 +26,4 @@ Dependency
 ```
 
 # Dankom-Commands (Java)
-Dankom Commands is a jar to add util commands to Dankom-Core. To start download jar into directory and run `java -jar Dankom-Core-{version}.jar setup -path <path>` This will create and sh file and bat file called dankom-core now to run commands go into directory and run ./dakom-core.bat <command> <args...>.
+Dankom Commands is a jar to add util commands to Dankom-Core. To start download jar into directory and run `java -jar Dankom-Core-{version}.jar setup -path <path>`. This will create and sh file and bat file called dankom-core now to run commands go into directory and run `./dakom-core.bat <command> <args...>`.
