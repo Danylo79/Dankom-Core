@@ -6,7 +6,7 @@
 
     <groupId>dev.dankom.dev-core</groupId>
     <artifactId>Dankom-Core</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.8</version>
     <name>Dankom-Core</name>
     <url>https://github.com/Danylo79/Dankom-Core</url>
