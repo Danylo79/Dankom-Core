@@ -4,7 +4,9 @@
 
 # Dankom-Core (Java)
 Dankom Core is a library of useful util and helper classes.
-#Maven
+
+# Maven
+
 Repository
 ```xml
 <repositories>
