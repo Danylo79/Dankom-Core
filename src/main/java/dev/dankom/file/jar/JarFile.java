@@ -37,6 +37,13 @@ public class JarFile {
         }
     }
 
+    public void repackage() {
+        File zip = new File(path, name + ".zip");
+        org.zeroturnaround.zip.ZipUtil.pack(new File(path, name), zip);
+        zip.renameTo(new File(path, name + ".jar"));
+        zip.delete();
+    }
+
     public void run(String... args) {
         Runner.run(jar, args);
     }
