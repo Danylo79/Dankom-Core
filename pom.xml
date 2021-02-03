@@ -7,7 +7,7 @@
     <groupId>dev.dankom.dev-core</groupId>
     <artifactId>Dankom-Core</artifactId>
     <packaging>pom</packaging>
-    <version>1.8</version>
+    <version>1.9</version>
     <name>Dankom-Core</name>
     <url>https://github.com/Danylo79/Dankom-Core</url>
     <description>Dankom Core is a library of useful util and helper classes.</description>

@@ -1,5 +1,6 @@
-package dev.dankom.logger;
+package dev.dankom.logger.abztract;
 
+import dev.dankom.logger.interfaces.ILogger;
 import dev.dankom.logger.type.LogLevel;
 import dev.dankom.util.general.ColorUtil;
 
@@ -12,39 +13,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Deprecated
-public class Logger {
+public class DefaultLogger implements ILogger {
 
     private List<String> log;
 
-    public Logger() {
-        this.log = new ArrayList<>();
-    }
-
-    public void info(String loc, Object msg) {
-        log(LogLevel.INFO, loc, msg);
-    }
-
-    public void warning(String loc, Object msg) {
-        log(LogLevel.WARNING, loc, msg);
-    }
-
-    public void error(String loc, Object msg) {
-        log(LogLevel.ERROR, loc, msg);
-    }
-
-    public void important(String loc, Object msg) {
-        log(LogLevel.IMPORTANT, loc, msg);
-    }
-
-    public void test(String loc, Object msg) {
-        log(LogLevel.TEST, loc, msg);
-    }
-
-    public void fatal(String loc, Object msg) {
-        log(LogLevel.FATAL, loc, msg);
-    }
-
+    @Override
     public void log(LogLevel level, String loc, Object msg) {
         Date date = new Date();
         String time = "[" + date.getHours() + ":" + date.getMinutes() + "." + date.getSeconds() + "]";

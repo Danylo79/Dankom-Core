@@ -1,4 +1,4 @@
-package dev.dankom.logger;
+package dev.dankom.logger.type;
 
 import dev.dankom.util.general.ColorUtil;
 
