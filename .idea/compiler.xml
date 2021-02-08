@@ -24,7 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Dankom-Core" options="-verbose -bootclasspath &quot;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_271/jre/lib/jce.jar;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar&quot;" />
+      <module name="Dankom-Core" options="" />
       <module name="Dankom-Core-Test" options="-XDignore.symbol.file" />
       <module name="Dankom-CoreCommands" options="-XDignore.symbol.file" />
     </option>
