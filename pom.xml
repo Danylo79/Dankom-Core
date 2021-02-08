@@ -6,8 +6,8 @@
 
     <groupId>dev.dankom.dev-core</groupId>
     <artifactId>Dankom-Core</artifactId>
-    <packaging>pom</packaging>
-    <version>1.9</version>
+    <packaging>jar</packaging>
+    <version>1.11</version>
     <name>Dankom-Core</name>
     <url>https://github.com/Danylo79/Dankom-Core</url>
     <description>Dankom Core is a library of useful util and helper classes.</description>
@@ -19,17 +19,6 @@
         <dev.dankom.github.username>Danylo79</dev.dankom.github.username>
         <dev.dankom.github.repository>Dankom-Core</dev.dankom.github.repository>
     </properties>
-
-    <developers>
-        <developer>
-            <name>Dankom</name>
-            <email>dan.komisarenko@gmail.com</email>
-            <url>https://danylo79.github.io/dev.dankom.github/</url>
-            <roles>
-                <role>Lead Developer</role>
-            </roles>
-        </developer>
-    </developers>
 
     <licenses>
         <license>
@@ -47,24 +36,16 @@
                     <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>properties-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <executions>
-                    <execution>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>write-project-properties</goal>
-                        </goals>
-                        <configuration>
-                            <outputFile>${project.build.outputDirectory}/maven-properties.properties</outputFile>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Temporary Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo</url>
+        </repository>
+    </distributionManagement>
 
     <repositories>
         <repository>
@@ -90,16 +71,6 @@
             <version>0.9.11</version>
         </dependency>
         <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.8.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>13.0</version>
@@ -116,11 +87,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.jboss.windup.decompiler.fernflower</groupId>
-            <artifactId>fernflower</artifactId>
-            <version>2.5.0.Final</version>
-        </dependency>
-        <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
@@ -131,13 +97,22 @@
             <version>1.14</version>
             <type>jar</type>
         </dependency>
+        <!--        Google        -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <!--        Maven      -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>2.8.2</version>
+        </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo</url>
-        </repository>
-    </distributionManagement>
 </project>
