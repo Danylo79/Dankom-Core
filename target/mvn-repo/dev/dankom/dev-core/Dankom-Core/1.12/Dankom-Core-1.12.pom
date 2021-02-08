@@ -7,7 +7,7 @@
     <groupId>dev.dankom.dev-core</groupId>
     <artifactId>Dankom-Core</artifactId>
     <packaging>jar</packaging>
-    <version>1.11</version>
+    <version>1.12</version>
     <name>Dankom-Core</name>
     <url>https://github.com/Danylo79/Dankom-Core</url>
     <description>Dankom Core is a library of useful util and helper classes.</description>
@@ -33,9 +33,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>3.0.0-M1</version>
-<!--                <configuration>-->
-<!--                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>-->
-<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
